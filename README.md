@@ -1,52 +1,48 @@
-<h1 align="center">Medical Insurance Cost Prediction</h1>
+# Medical Insurance Cost Prediction
 
-<div align= "center">
-  <h4>Medical Insurance Cost Prediction using Random Forest Regressor.</h4><br>
-  <img src="https://github.com/SahilChachra/Medical-Cost-Prediction/blob/master/sampleImages/doc.gif">
-</div>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p align="center">
+  <img src="https://github.com/SahilChachra/Medical-Cost-Prediction/blob/master/sampleImages/doc.gif" alt="Medical Insurance Cost Prediction" width="600">
+</p>
 
 ## :innocent: Motivation
 
-To predict things have been never so easy. I used to wonder how Insurance amount is charged normally. So, in the mean time I came across this dataset and thought of working on it! Using this I wanted to know how few features determine our insurance amount! 
- 
+I stumbled upon this repository while exploring predictive modeling projects, which I later forked. Have you ever wondered how insurance amounts are determined? I found this dataset intriguing and decided to delve into it! I aimed to understand how various features influence our insurance costs.
+
 ## :hourglass: Some Screenshots
 
-![](https://github.com/SahilChachra/Medical-Cost-Prediction/blob/master/sampleImages/Cor.png)
+![Correlation](https://github.com/SahilChachra/Medical-Cost-Prediction/blob/master/sampleImages/Cor.png)
 
-![](https://github.com/SahilChachra/Medical-Cost-Prediction/blob/master/sampleImages/AgevsCharges.png)
+![Age vs Charges](https://github.com/SahilChachra/Medical-Cost-Prediction/blob/master/sampleImages/AgevsCharges.png)
 
-![](https://github.com/SahilChachra/Medical-Cost-Prediction/blob/master/sampleImages/deployments.png)
+![Deployments](https://github.com/SahilChachra/Medical-Cost-Prediction/blob/master/sampleImages/deployments.png)
 
 ## :star: Features
 <ol>
     <li>Exploring the dataset</li>
-    <li>Converting Categorical values to Numerical</li>
-    <li>Plotting Heatmap to see dependency of Dependent valeu on Independent features</li>
-    <li>Data Visualization (Plots of feature vs feature)</li>
-    <li>Plotting Skew and Kurtosis</li>
-    <li>Data Preparation</li>
+    <li>Converting categorical values to numerical</li>
+    <li>Plotting heatmap to visualize dependencies of dependent value on independent features</li>
+    <li>Data visualization (plots of feature vs feature)</li>
+    <li>Plotting skewness and kurtosis</li>
+    <li>Data preparation</li>
     <li>Prediction using Linear Regression</li>
     <li>Prediction using SVR</li>
     <li>Prediction using Ridge Regressor</li>
     <li>Prediction using Random Forest Regressor</li>
-    <li>Performing Hyper tuning for above mentioned models</li>
-    <li>Plotting Graph for all Models to compare performance</li>
+    <li>Performing hyperparameter tuning for the above mentioned models</li>
+    <li>Plotting graphs to compare model performance</li>
     <li>Preparing model for deployment</li>
-    <li>Deployed model using Flask</li>
+    <li>Deploying model using Flask</li>
 </ol>
 
 ## :key: Results
 
-####  Model gave 86% accuracy for Medical Insurance Amount Prediction using <code>Random Forest Regressor</code>
-
+#### Model achieved 86% accuracy for Medical Insurance Amount Prediction using Random Forest Regressor.
 
 ## :file_folder: Dataset
-The dataset used can be downloaded here (Kaggle) - [Click to Download](https://www.kaggle.com/mirichoi0218/insurance)
+The dataset used can be downloaded from Kaggle - [Click to Download](https://www.kaggle.com/mirichoi0218/insurance)
 
-## :heart: Owner
-Made with :heart:&nbsp;  by [Sahil Chachra](https://github.com/SahilChachra)
+## Acknowledgement
+This project builds upon the work of [Sahil Chachra](https://github.com/SahilChachra), whose original repository served as the foundation for this project's development.
 
 ## :eyes: License
-MIT © [Sahil Chachra](https://github.com/SahilChachra/Medical-Cost-Prediction/blob/master/LICENSE)
+This project is licensed under the terms of the MIT license. See the [LICENSE](LICENSE) file for details.
